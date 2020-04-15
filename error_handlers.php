@@ -3,14 +3,11 @@
 <html>
 <head>
 <meta charet="UTF-8">
-<title>Database connection</title>
+<title>Error handler tutorial</title>
 </head>
 
 <body>
-<!-- with action we call the code which will be run,
-when the button will be pressed. With methd we save 
-input data into superglobal $_POST-->
-<form action="includes/prepared_statements_insert.inc.php" method="POST">
+<form action="includes/error_handlers.inc.php" method="POST">
     <input type="text" name="subject" placeholder="Subject">
     <br>
     <input type="text" name="content" placeholder="Content">
